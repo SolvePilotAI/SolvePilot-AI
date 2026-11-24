@@ -13,10 +13,23 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
-    header { padding: 65px 20px 30px; }
-    h1 { color: #d9b75f; font-size: 42px; }
-    p { color: #c5cee0; }
-    main { max-width: 650px; margin: auto; padding: 20px; }
+    header {
+      padding: 20px 15px 10px;
+    }
+    .logo {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 15px;
+    }
+    main {
+      max-width: 650px;
+      margin: auto;
+      padding: 20px;
+    }
+    p {
+      color: #c5cee0;
+    }
     textarea {
       box-sizing: border-box;
       width: 100%;
@@ -32,18 +45,20 @@
       border-radius: 10px;
       padding: 15px 30px;
       margin-top: 18px;
+      font-size: 16px;
       cursor: pointer;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>👑 SolvePilot AI</h1>
-    <p>Your Intelligent Solution</p>
+    <img class="logo"
+      src="file_00000000bbe4820aae85129e68f9d8c4.png"
+      alt="SolvePilot AI - Your Intelligent Solution">
   </header>
   <main>
     <h2>Cu ce te putem ajuta astăzi?</h2>
-    <textarea placeholder="Scrie întrebarea ta aici..."></textarea>
+    <textarea placeholder="Descrie problema ta aici..."></textarea>
     <button type="button">Găsește soluția</button>
     <p>O întrebare gratuită pe zi.</p>
   </main>
